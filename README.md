@@ -23,6 +23,8 @@ O objetivo deste projeto é praticar todo o processo de análise de dados, desde
 # 📚 Conceitos que serão Aplicados
 
 - Importação de Dados
+- Data Profiling
+- Qualidade e Integridade dos Dados
 - Tratamento de Dados
 - Modelagem Relacional
 - Normalização
@@ -39,25 +41,56 @@ O objetivo deste projeto é praticar todo o processo de análise de dados, desde
 
 ---
 
+# 🔍 Processo de Desenvolvimento
+
+O projeto está sendo desenvolvido seguindo um fluxo de análise de dados, começando pela importação e investigação dos dados antes da realização das etapas de tratamento e modelagem.
+
+### Fluxo atual
+
+Dataset Bruto
+      ↓
+Importação para o SQL Server
+      ↓
+Data Profiling
+      ↓
+Validação da qualidade e integridade dos dados
+
+
 # 📁 Estrutura do Projeto
 
-```
 VarejoDB
 │
-├── Dashboard
-├── Scripts
-├── Base de Dados
+├── data
+│   └── raw
+│       └── retail_sales_dataset.csv
+│
+├── scripts
+│   └── data_profiling.sql
+│
+├── dashboards
+│
+├── imagens
+│   ├── Importação
+│           └── importacao.png
+│           └── schema_importacao.png
+│   
+│   
+│
 └── README.md
-```
 
 ---
 
-# 🚧 Status do Projeto
+#  Status do Projeto
 
 🚀 Em desenvolvimento.
 
-Novas funcionalidades, consultas SQL e dashboards serão adicionados conforme a evolução do projeto.
-
+- [x] Importação do dataset para o SQL Server
+- [x] Data Profiling inicial
+- [x] Validação da qualidade e integridade dos dados
+- [ ] Tratamento e transformação dos dados
+- [ ] Modelagem relacional
+- [ ] Análises SQL
+- [ ] Dashboards no Power BI
 ---
 
 # 📬 Contato
