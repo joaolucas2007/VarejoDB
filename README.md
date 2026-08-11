@@ -71,31 +71,6 @@ O modelo foi estruturado utilizando chaves primárias e estrangeiras para estabe
 
 ![Modelo Entidade-Relacionamento](../VarejoDB/Imagens/Modelagem/DER-VarejoDB.png)
 
-# 📁 Estrutura do Projeto
-
-VarejoDB
-│
-├── data
-│   └── raw
-│       └── retail_sales_dataset.csv
-│
-├── scripts
-│   ├── data_profiling.sql
-│   └── modelagem.sql
-│
-├── dashboards
-│
-├── imagens
-│   ├── Importação
-│   │   ├── importacao.png
-│   │   └── schema_importacao.png
-│   │
-│   └── Modelagem
-│       └── DER-VarejoDB.png
-│
-└── README.md
----
-
 #  Status do Projeto
 
 🚀 Em desenvolvimento.
