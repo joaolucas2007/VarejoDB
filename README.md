@@ -69,7 +69,7 @@ Após o processo de Data Profiling, foi realizada a modelagem relacional dos dad
 
 O modelo foi estruturado utilizando chaves primárias e estrangeiras para estabelecer os relacionamentos entre as tabelas.
 
-![Modelo Entidade-Relacionamento](imagens/Modelagem/DER-VarejoDB.png)
+![Modelo Entidade-Relacionamento](Imagens/Modelagem/DER-VarejoDB.png)
 
 # 📁 Estrutura do Projeto
 
