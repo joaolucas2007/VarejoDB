@@ -54,7 +54,22 @@ Importação para o SQL Server
 Data Profiling
       ↓
 Validação da qualidade e integridade dos dados
+      ↓
+Modelagem das tabelas 
 
+# 🗂️ Modelo de Dados
+
+Após o processo de Data Profiling, foi realizada a modelagem relacional dos dados, separando as informações em três entidades principais:
+
+- **Clientes** — armazena as informações dos clientes.
+- **Categorias** — armazena as categorias dos produtos.
+- **Vendas** — armazena as informações das transações e seus relacionamentos com clientes e categorias.
+
+### DER
+
+O modelo foi estruturado utilizando chaves primárias e estrangeiras para estabelecer os relacionamentos entre as tabelas.
+
+![Modelo Entidade-Relacionamento](../VarejoDB/Imagens/Modelagem/DER-VarejoDB.png)
 
 # 📁 Estrutura do Projeto
 
@@ -65,19 +80,20 @@ VarejoDB
 │       └── retail_sales_dataset.csv
 │
 ├── scripts
-│   └── data_profiling.sql
+│   ├── data_profiling.sql
+│   └── modelagem.sql
 │
 ├── dashboards
 │
 ├── imagens
 │   ├── Importação
-│           └── importacao.png
-│           └── schema_importacao.png
-│   
-│   
+│   │   ├── importacao.png
+│   │   └── schema_importacao.png
+│   │
+│   └── Modelagem
+│       └── DER-VarejoDB.png
 │
 └── README.md
-
 ---
 
 #  Status do Projeto
@@ -87,8 +103,8 @@ VarejoDB
 - [x] Importação do dataset para o SQL Server
 - [x] Data Profiling inicial
 - [x] Validação da qualidade e integridade dos dados
-- [ ] Tratamento e transformação dos dados
-- [ ] Modelagem relacional
+- [x] Tratamento e transformação dos dados
+- [x] Modelagem relacional
 - [ ] Análises SQL
 - [ ] Dashboards no Power BI
 ---
