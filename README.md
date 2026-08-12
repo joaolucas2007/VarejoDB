@@ -1,7 +1,9 @@
 # VarejoDB
 
-Projeto desenvolvido em SQL Server utilizando uma base de dados do setor varejista, com foco em tratamento de dados, consultas SQL e Business Intelligence.
-
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![T-SQL](https://img.shields.io/badge/T--SQL-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ---
 
 # 🎯 Objetivo
