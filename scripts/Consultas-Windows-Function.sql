@@ -64,3 +64,35 @@ Go
 
 
 --Criando um Ranking de Clientes por Categoria
+
+Select CL.IdCliente, V.ValorTotalVenda, CA.NomeCategoria,
+Dense_Rank() Over(Partition By CA.IdCategoria Order By V.ValorTotalVenda Desc) As RankingCategoria
+From Clientes CL
+Inner Join Vendas V
+On Cl.IdCliente = V.IdCliente
+Inner Join Categorias CA
+On V.IdCategoria = CA.IdCategoria
+Go
+
+--Mostrando as vendas por categoria com a média da categoria 
+
+Select CL.IdCliente, V.ValorTotalVenda, CA.NomeCategoria,
+Avg(V.ValorTotalVenda) Over(Partition By CA.IdCategoria) As MediaCategoria
+From Clientes CL
+Inner Join Vendas V
+On Cl.IdCliente = V.IdCliente
+Inner Join Categorias CA
+On V.IdCategoria = CA.IdCategoria
+Go
+
+
+--Mostrando as Vendas por Categoria e o faturamento daquela categoria
+
+Select CL.IdCliente, V.ValorTotalVenda, CA.NomeCategoria,
+Sum(V.ValorTotalVenda) Over(Partition By CA.IdCategoria Order By V.DataVenda,V.IdVenda ) As TotalFaturamentoCategoria
+From Clientes CL
+Inner Join Vendas V
+On Cl.IdCliente = V.IdCliente
+Inner Join Categorias CA
+On V.IdCategoria = CA.IdCategoria
+Go
