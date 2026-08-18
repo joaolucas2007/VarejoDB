@@ -82,13 +82,14 @@ VarejoDB/
 │       └── retail_sales_dataset.csv
 │
 ├── scripts/
-│   ├── data_profiling.sql
-│   └── modelagem.sql
+│   ├── Data_Profiling.sql
+│   ├── modelagem.sql
+│   ├── Consulta-Join.sql
+│   ├── Consultas-Windows-Function.sql
+│   └── Consultas_TCE.sql
 │
-├── dashboards/
-│
-├── imagens/
-│   ├── Importacao/
+├── Imagens/
+│   ├── Importação/
 │   │   ├── importacao.png
 │   │   └── schema_importacao.png
 │   │
@@ -115,4 +116,4 @@ VarejoDB/
 
 📧 Email: **joao.lucas.devsql@gmail.com**
 
-💼 LinkedIn: **www.linkedin.com/in/joão-lucas-freire-da-silva-a1b139420**
+💼 LinkedIn: [João Lucas Freire da Silva](https://www.linkedin.com/in/joão-lucas-freire-da-silva-a1b139420)
