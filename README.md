@@ -32,13 +32,8 @@ O objetivo deste projeto é praticar todo o processo de análise de dados, desde
 - Normalização
 - CRUD
 - JOINs
-- GROUP BY e HAVING
-- CASE
-- Subqueries
 - CTE
 - Window Functions
-- Views
-- Procedures
 - Dashboard no Power BI
 
 ---
@@ -108,7 +103,7 @@ VarejoDB/
 - [x] Validação da qualidade e integridade dos dados
 - [x] Tratamento e transformação dos dados
 - [x] Modelagem relacional
-- [ ] Análises SQL
+- [x] Análises SQL
 - [ ] Dashboards no Power BI
 ---
 
