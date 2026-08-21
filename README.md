@@ -1,7 +1,9 @@
 # VarejoDB
 
-Projeto desenvolvido em SQL Server utilizando uma base de dados do setor varejista, com foco em tratamento de dados, consultas SQL e Business Intelligence.
-
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![T-SQL](https://img.shields.io/badge/T--SQL-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ---
 
 # 🎯 Objetivo
@@ -30,13 +32,8 @@ O objetivo deste projeto é praticar todo o processo de análise de dados, desde
 - Normalização
 - CRUD
 - JOINs
-- GROUP BY e HAVING
-- CASE
-- Subqueries
 - CTE
 - Window Functions
-- Views
-- Procedures
 - Dashboard no Power BI
 
 ---
@@ -80,13 +77,14 @@ VarejoDB/
 │       └── retail_sales_dataset.csv
 │
 ├── scripts/
-│   ├── data_profiling.sql
-│   └── modelagem.sql
+│   ├── Data_Profiling.sql
+│   ├── modelagem.sql
+│   ├── Consulta-Join.sql
+│   ├── Consultas-Windows-Function.sql
+│   └── Consultas_TCE.sql
 │
-├── dashboards/
-│
-├── imagens/
-│   ├── Importacao/
+├── Imagens/
+│   ├── Importação/
 │   │   ├── importacao.png
 │   │   └── schema_importacao.png
 │   │
@@ -105,7 +103,7 @@ VarejoDB/
 - [x] Validação da qualidade e integridade dos dados
 - [x] Tratamento e transformação dos dados
 - [x] Modelagem relacional
-- [ ] Análises SQL
+- [x] Análises SQL
 - [ ] Dashboards no Power BI
 ---
 
@@ -113,4 +111,4 @@ VarejoDB/
 
 📧 Email: **joao.lucas.devsql@gmail.com**
 
-💼 LinkedIn: **www.linkedin.com/in/joão-lucas-freire-da-silva-a1b139420**
+💼 LinkedIn: [João Lucas Freire da Silva](https://www.linkedin.com/in/joão-lucas-freire-da-silva-a1b139420)
